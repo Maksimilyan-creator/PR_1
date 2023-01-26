@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Transactions;
 
 namespace ПР_1
 {
@@ -19,9 +20,9 @@ namespace ПР_1
         public string Login { get; set; }
         public string Password { get; set; }
 
-        User people = new User("","","");
-
-        void enter()
+        User people = new User("", "", "");
+        
+        void enter(string login, string password)
         {
         }
         public User()

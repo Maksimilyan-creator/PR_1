@@ -14,9 +14,9 @@ namespace ПР_1
         {
             List<string> pointslist = new List<string>() { edge.points };
         }
-        void addBackupinfo() { }
-        void addEdge() { }
+        void addBackupinfo(string place1, string place2, int backup) { }
+        void addEdge(string place1, string place2) { }
         void getAverageBackup() { }
-        void generatePath() { }
+        void generatePath(string place1, string place2) { }
     }
 }

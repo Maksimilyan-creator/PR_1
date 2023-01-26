@@ -11,13 +11,13 @@ namespace ПР_1
        public string points = "133.12.1231";
        public int backup = 1;
 
-        void getPoints()
+        void getPoints(string place1, string place2, int backup)
         {
         }
         void getBackup()
         {
         }
-        void setBackup()
+        void setBackup(int backup)
         {
         }
     }

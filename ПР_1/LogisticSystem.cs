@@ -16,8 +16,8 @@ namespace ПР_1
         {
 
         }
-        void addUser() { }
-        void findUser() { }
+        void addUser(string name, string login, string password, string repeation, int type) { }
+        void findUser(string login, string password) { }
         void save() { }
         void load() { }
     }
